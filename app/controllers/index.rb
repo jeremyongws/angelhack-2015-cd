@@ -16,10 +16,14 @@ get '/issue' do
 end
 
 get '/issue2' do
-  erb :issue_sub_type
+  erb :issue_subtype
 end
 
 get '/issue3' do
+  erb :issue_detail
+end
+
+get '/issue4' do
   erb :issue_picture
 end
 
