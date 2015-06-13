@@ -4,11 +4,11 @@ get '/' do
 end
 
 get '/dashboard' do
-  erb :main
+  erb :dashboard_main
 end
 
 get '/issue' do
-  erb :issue_type
+  erb :main
 end
 
 get '/issue2' do
@@ -21,4 +21,8 @@ end
 
 get '/issue4' do
   erb :issue_picture
+end
+
+get '/preview' do
+  erb :issue_preview
 end

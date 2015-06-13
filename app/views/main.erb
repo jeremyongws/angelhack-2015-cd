@@ -180,7 +180,18 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+    <script>
+        $(document).ready(function(){
+            // debugger
+            $("i").click(function(){
+                var number = $(this).parent().next().text();
+                $(this).parent().next().hide();
+                // debugger
+                $(this).parent().append("<div>" + (parseInt(number) + 1) + "</div>")
+                $(this).unbind();
+            })
+        })
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 

@@ -99,7 +99,16 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+    <script>
+    $(document).ready(function(){
+        $(".button_option").each(function(){
+            $(this).click(function(){
+                $(this).removeAttr("style")
+                $(this).attr("style", "background-color:#90CAF9;")
+            });
+        });
+    })
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
