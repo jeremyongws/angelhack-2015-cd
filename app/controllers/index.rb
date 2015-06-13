@@ -7,19 +7,19 @@ get '/dashboard' do
   erb :dashboard_main
 end
 
-get '/issue' do
+get '/webapp' do
   erb :main
 end
 
+get '/issue' do
+  erb :issue_type
+end
+
 get '/issue2' do
-  erb :issue_detail
+  erb :issue_sub_type
 end
 
 get '/issue3' do
-  erb :issue_picture
-end
-
-get '/issue4' do
   erb :issue_picture
 end
 
