@@ -315,10 +315,17 @@ body {
     border-radius: 8px;
 }
 
+.issue_0 {
+    background: url("../img/rubbish.jpg");
+    background-position: bottom right;
+    /*background-size: 100%*/
+}
+
+
 .issue_1 {
     background: url("../img/rubbish3.jpg");
     background-position: bottom right;
-    background-size: 100%
+    background-size: 150%
 }
 
 
